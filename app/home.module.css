@@ -1,0 +1,25 @@
+.container{
+    margin: 0 auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding-top: 20px;
+}
+
+.access{
+    border: gray 1px solid;
+    width: 160px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.title{
+    font-weight:bolder;
+}
+
+.link{
+    font-weight: bolder;
+    color: blue;
+}
