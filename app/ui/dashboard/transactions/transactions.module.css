@@ -1,0 +1,48 @@
+.container{
+    background-color: var(bgsoft);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.title{
+    color: var(textsoft);
+    font-weight: 200;
+    margin-bottom: 18px;
+}
+
+.table{
+    width: 100%;
+}
+
+.table td{
+    padding: 5px;
+}
+
+.user{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.userImage{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.status{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+    color: white;
+}
+
+.pending{
+    background-color: rgb(209, 136, 0);
+}
+.cancelled{
+    background-color: brown;
+}
+.done{
+    background-color: green;
+}

@@ -1,0 +1,57 @@
+.container {
+  position: fixed;
+}
+
+.item {
+  position: relative;
+  padding: 20px 20px;
+  border-radius: 10px;
+  background: rgb(37,51,82);
+  background: linear-gradient(0deg, rgba(37,51,82,1) 0%, rgba(24,34,55,1) 35%);
+  margin-bottom: 20px;
+}
+
+.bgContainer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+}
+
+.bg {
+  object-fit: contain;
+  opacity: 0.2;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: transparent;
+}
+
+.notifications{
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--textsoft);
+    background: transparent;
+}
+
+.button{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: max-content;
+}
